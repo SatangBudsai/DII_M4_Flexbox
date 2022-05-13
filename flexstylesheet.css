@@ -21,7 +21,7 @@
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    width: 600px;
+    /* width: 600px; */
 }
 .inline-flex-container>div {
     background-color: darkgrey;
@@ -32,12 +32,13 @@
 }
 .d1{
     order: 1;
+    flex-basis: 200px;
 }
 .d2 {
     order: 3;
+    flex-basis: 100px;
 }
 .d3 {
     order: 2;
-    flex-shrink: 4;
-    /* if you use flex shrink scale container more than brow */
+    flex-basis: 100px ;
 }
