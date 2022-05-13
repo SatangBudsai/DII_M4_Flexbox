@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.inline-flex-container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.bg-blue {
+    background-color: rgb(105, 231, 233);
+}
+.bg-red{
+    background-color: rgb(226, 43, 43);
+}
+.text-white{
+    color: aliceblue;
+}
+.flex-container>div{
+    background-color: darkgrey;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+}
+.inline-flex-container>div {
+    background-color: darkgrey;
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    width: 70px;
+}
