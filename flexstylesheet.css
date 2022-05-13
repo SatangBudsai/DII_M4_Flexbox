@@ -1,12 +1,12 @@
 .flex-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content:flex-end;
 }
 .inline-flex-container{
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .bg-blue {
     background-color: rgb(105, 231, 233);
@@ -30,4 +30,13 @@
     padding: 10px;
     font-size: 25px;
     width: 70px;
+}
+.d1{
+    order: 1;
+}
+.d2 {
+    order: 3;
+}
+.d3 {
+    order: 2;
 }
