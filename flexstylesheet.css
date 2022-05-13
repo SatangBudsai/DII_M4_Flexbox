@@ -32,13 +32,13 @@
 }
 .d1{
     order: 1;
-    flex-basis: 200px;
+    flex:1 0 200px;
 }
 .d2 {
     order: 3;
-    flex-basis: 100px;
+    flex: 2 0 10px;
 }
 .d3 {
     order: 2;
-    flex-basis: 100px ;
+    flex: 0 0 100px;
 }
