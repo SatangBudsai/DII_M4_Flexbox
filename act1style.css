@@ -1,0 +1,35 @@
+.navbar{
+    background-color: rgb(161, 132, 58);
+    display: flex;
+    grid-gap: 10px;
+}
+.navbar>div{
+    background-color: rgb(245, 221, 168);
+    margin: 10px;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.menu{
+    display: inline-flex;
+    flex-flow: column;
+    background-color: rgb(221, 188, 106);
+    flex-basis: 120px;
+}
+.container{
+    display:flex;
+    background-color: rgb(252, 237, 205);
+    flex-grow: 1;
+}
+.menu>div {
+    background-color: rgb(245, 221, 168);
+    margin: 10px;
+    padding: 10px;
+}
+.container>div {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
